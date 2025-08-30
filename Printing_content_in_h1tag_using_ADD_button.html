@@ -1,0 +1,12 @@
+
+<button onclick="print()">add</button>
+<h1 id="result"></h1>
+<script>
+    var h1 = document.getElementById("result")
+    function print()
+    {
+        var listitem=document.createElement("h1")
+        listitem.textContent="Hello"
+        h1.append(listitem)
+    }
+</script>

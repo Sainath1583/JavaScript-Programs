@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Student-form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body> 
+    <h2 id="h2">STUDENT FORM</h2>
+    <form id="studentForm">
+        <input type="text" id="name" placeholder="Name" required><br>
+        <input type="number" id="age" placeholder="Age" required><br>
+        
+        Gender:
+        <input type="radio" name="gender" value="Male" required>Male 
+        <input type="radio" name="gender" value="Female" required>Female
+        <input type="radio" name="gender" value="Others" required>Others <br>
+        <select id="course" required>
+            <option value="">Select Course</option>
+            <option value="Python">Python</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="NodeJS">NodeJS</option>
+        </select><br>
+        <input type="email" id="email" placeholder="E-mail" required><br>
+        <button type="submit" class="save-btn">Save</button>
+    </form>
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>GENDER</th>
+                <th>COURSE</th>
+                <th>EMAIL</th>
+                <th>ACTION</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--Rows willl be added dynamically-->
+        </tbody>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<div id="ok">
+    <h1>Hello</h1>
+</div>
+
+<script>
+    var h1Element = document.createElement("h1")
+    h1Element.innerHTML = "Bye"
+    var divok = document.getElementById("ok")
+    divok.append(h1Element)
+    console.log(divok.textContent)
+</script>
