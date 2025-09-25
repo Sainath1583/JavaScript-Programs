@@ -6,6 +6,9 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+* {
+    background-color: ;
+}
 .navbar{
     background-color: #FD6569;
     padding: 10px;
